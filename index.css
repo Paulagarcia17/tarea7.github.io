@@ -1,0 +1,54 @@
+@media (max-width= 320px){
+} 
+@media (min-width= 321px) and (max-width= 768px){
+} 
+@media (min-width= 769px) and (max-width= 1024px){
+} 
+
+.boxes
+{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-auto-rows:450px 450px 450px;
+    grid-column-gap: 10px ; 
+    grid-row-gap: 1em; 
+
+}
+
+.box1 
+{
+    background-color: darkviolet; 
+}
+
+.box2 
+{
+    background-color:aqua ;
+}
+.box3 
+{
+    background-color:darkorange;
+}
+.box4 
+{
+    background-color:yellow;
+}
+.box5 
+{
+    background-color: rgb(241, 39, 32);
+}
+.box6 
+{
+    background-color:darkblue
+}
+.box7
+{
+    background-color: lawngreen;
+}
+.box8 
+{
+    background-color: rgb(241, 20, 142);
+}
+.box9 
+{
+    background-color:darkgray ;
+}
